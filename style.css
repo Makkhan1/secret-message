@@ -1,0 +1,91 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+.container{
+  background-color: #1b1b1b;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.card{
+  background-color: green;
+  width: 45%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  box-shadow: 5px 8px cyan;
+}
+.intro{
+
+  text-align: center;
+  height: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.JOKES{
+  text-align: center;
+  height: 65%;
+}
+
+.btn {
+  background: red;
+  position: absolute;
+  left: 40%;
+  ma
+  margin-bottom: 20px;;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: cyan;
+  font-size: 15px;
+
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: green;
+  text-decoration: none;
+}
+.btn2{
+  background: red;
+  visibility: hidden;
+  position: absolute;
+  left: 30%;
+  margin-bottom: 20px;;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: cyan;
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn2:hover {
+  background: green;
+  text-decoration: none;
+}
+p{
+  margin: 0;
+  padding: 10%;
+  font-size: 22px;
+
+}
+p ::after{
+  content: '😂😂'
+}
+span{
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.5;
+}
